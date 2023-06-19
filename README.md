@@ -1,5 +1,7 @@
 # Отказоустойчивость, балансировка нагрузки
 ## Домашние задания в курсе Нетология
 
-- Haproxy 
-  [](./Netology_fault_tolerance_ya_cloud/)
+- Отказоустойчивость в яндекс облаке. Load balancer, target groups. </br>
+Автоматизация с помощью Terraform
+
+  [Netology_fault_tolerance_ya_cloud](./Netology_fault_tolerance_ya_cloud/)
