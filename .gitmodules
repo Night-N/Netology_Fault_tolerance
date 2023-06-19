@@ -1,3 +1,12 @@
 [submodule "Netology_fault_tolerance_ya_cloud"]
 	path = Netology_fault_tolerance_ya_cloud
 	url = https://github.com/Night-N/Netology_fault_tolerance_ya_cloud
+[submodule "Netology_fault_tolerance_rsync"]
+	path = Netology_fault_tolerance_rsync
+	url = https://github.com/Night-N/Netology_fault_tolerance_rsync
+[submodule "Netology_fault_tolerance_haproxy"]
+	path = Netology_fault_tolerance_haproxy
+	url = https://github.com/Night-N/Netology_fault_tolerance_haproxy
+[submodule "Netology_fault_tolerance_keepalived"]
+	path = Netology_fault_tolerance_keepalived
+	url = https://github.com/Night-N/Netology_fault_tolerance_keepalived
