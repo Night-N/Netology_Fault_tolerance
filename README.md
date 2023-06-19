@@ -18,6 +18,7 @@
   [Netology_fault_tolerance_keepalived](https://github.com/Night-N/Netology_fault_tolerance_keepalived/)
 
 - HAProxy.</br>
-Настройка HAProxy на 4 уровне (TCP), на 7 уровне (HTTP) на примере балансировки нагрузки на python server.
+Настройка HAProxy на 4 уровне (TCP), на 7 уровне (HTTP) на примере балансировки нагрузки на python server.</br>
+Взаимодействие с Nginx
 
   [Netology_fault_tolerance_haproxy](https://github.com/Night-N/Netology_fault_tolerance_haproxy/)
