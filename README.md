@@ -19,4 +19,6 @@ Load balancer, target groups. Автоматизация с помощью Terra
 [Netology_CICD_gitlab](https://github.com/Night-N/Netology_CICD_gitlab/)</br>
 Развертывание Gitlab на локальной машине в VirtualBox с помощью Vagrant. Тестовый пайплайн
 
-  
+## Информационная безопасность 
+### Уязвимости и атаки на информационные системы
+[./Security/Pentest/README.md](./Security/Pentest/README.md)
