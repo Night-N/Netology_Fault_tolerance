@@ -22,3 +22,6 @@ Load balancer, target groups. Автоматизация с помощью Terra
 ## Информационная безопасность 
 ### Уязвимости и атаки на информационные системы
 [./Security/Pentest/README.md](./Security/Pentest/README.md)
+
+### Защита хоста. eCryptfs, apparmor, LUKS
+[./Security/Host_security/README.md](./Security/Host_security/README.md)
