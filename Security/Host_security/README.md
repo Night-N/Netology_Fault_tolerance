@@ -16,6 +16,15 @@
 *В качестве ответа  пришлите снимки экрана домашнего каталога пользователя с исходными и зашифрованными данными.*  
 ```
 
+Команды:
+```
+apt install ecryptfs-utils  
+adduser cryptouser   
+ecryptfs-migrate-home --user cryptouser   
+```
+Вход под юзером cryptouser, создание файла, вход под рутом, проверка, что каталог недоступен:  
+![](./img/task1.jpg)
+
 
 ### Задание 2
 ```
@@ -25,6 +34,33 @@
 *В качестве ответа пришлите снимки экрана с поэтапным выполнением задания.*
 ```
 
+- К ВМ подключен дополнительный диск 100мб  
+- Установка LUKS, форматирование диска:  
+```
+apt install cryptsetup
+fdisk /dev/sdb
+```
+
+![](./img/task2-1.jpg)
+
+- Шифрование раздела:  
+```
+cryptsetup -y -v --type=luks2 luksFormat /dev/sdb1
+cryptsetup luksOpen /dev/sdb1 disk
+mkfs.ext4 /dev/mapper/disk 
+```
+
+![](./img/task2-2.jpg)
+
+- Монтирование в папку:   
+```
+mkdir .secret
+mount /dev/mapper/disk .secret/
+```
+
+![](./img/task2-3.jpg)
+
+
 
 ### Задание 3
 ```
@@ -33,3 +69,19 @@
 3. Отключите (удалите) apparmor.
 *В качестве ответа пришлите снимки экрана с поэтапным выполнением задания.*
 ```
+
+Команды:
+```
+apt install apparmor-profiles apparmor-utils apparmor-profiles-extra
+cp /usr/bin/man /usr/bin/man1
+cp /usr/bin/ping /usr/bin/man
+man 127.0.0.1
+
+aa-teardown
+man 127.0.0.1
+
+service apparmor stop
+apt purge apparmor-profiles apparmor-utils apparmor-profiles-extra
+```
+
+![](./img/task3.jpg)
