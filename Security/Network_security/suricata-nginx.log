@@ -1,0 +1,28 @@
+09/14/2023-10:38:11.989164  [**] [1:2009358:6] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine) [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.30.1.21:36620 -> 172.30.1.24:80
+09/14/2023-10:38:11.989164  [**] [1:2024364:4] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.30.1.21:36620 -> 172.30.1.24:80
+09/14/2023-10:38:11.989755  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36620
+09/14/2023-10:38:11.986396  [**] [1:2260000:1] SURICATA Applayer Mismatch protocol both directions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.30.1.21:36616 -> 172.30.1.24:80
+09/14/2023-10:38:11.993239  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36630
+09/14/2023-10:38:11.995588  [**] [1:2009358:6] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine) [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.30.1.21:36646 -> 172.30.1.24:80
+09/14/2023-10:38:11.995588  [**] [1:2024364:4] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.30.1.21:36646 -> 172.30.1.24:80
+09/14/2023-10:38:11.996523  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36646
+09/14/2023-10:38:11.999223  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36654
+09/14/2023-10:38:12.002288  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36666
+09/14/2023-10:38:12.005182  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36670
+09/14/2023-10:38:12.007538  [**] [1:2013057:5] ET WEB_SERVER Inbound PHP User-Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.30.1.21:36674 -> 172.30.1.24:80
+09/14/2023-10:38:12.007538  [**] [1:2013058:5] ET WEB_SERVER Outbound PHP User-Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.30.1.21:36674 -> 172.30.1.24:80
+09/14/2023-10:38:12.008500  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36674
+09/14/2023-10:38:12.011103  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.30.1.21:36676 -> 172.30.1.24:80
+09/14/2023-10:38:12.011784  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36676
+09/14/2023-10:38:12.015230  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36682
+09/14/2023-10:38:12.018006  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36684
+09/14/2023-10:38:12.021051  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36688
+09/14/2023-10:38:12.023782  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36690
+09/14/2023-10:38:12.026521  [**] [1:2018607:3] ET WEB_SERVER PHP Crawler [**] [Classification: Attempted User Privilege Gain] [Priority: 1] {TCP} 172.30.1.21:36694 -> 172.30.1.24:80
+09/14/2023-10:38:12.027234  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36694
+09/14/2023-10:38:12.031079  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36704
+09/14/2023-10:38:12.033735  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36714
+09/14/2023-10:38:12.035750  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36724
+09/14/2023-10:38:12.037688  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36736
+09/14/2023-10:38:12.039775  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36742
+09/14/2023-10:38:12.042151  [**] [1:2023668:4] ET INFO Unconfigured nginx Access [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.30.1.24:80 -> 172.30.1.21:36746
