@@ -25,3 +25,6 @@ Load balancer, target groups. Автоматизация с помощью Terra
 
 ### Защита хоста. eCryptfs, apparmor, LUKS
 [./Security/Host_security/README.md](./Security/Host_security/README.md)
+
+### Защита сети. Suricata, fail2ban
+[./Security/Network_security/README.md](./Security/Network_security/README.md)
