@@ -15,6 +15,11 @@ Load balancer, target groups. Автоматизация с помощью Terra
 Настройка HAProxy на 4 уровне (TCP), на 7 уровне (HTTP) на примере балансировки нагрузки на python server.</br>
 Взаимодействие с Nginx
 ## CI/CD
+
+### Ansible. 1 часть
+[./CICD/Ansible_1/README.md](./CICD/Ansible_1/README.md)
+Вводная лекция по Ansible. Работа с двумя ВМ(Vagrant) CentOS7
+
 ### Gitlab. </br>
 [Netology_CICD_gitlab](https://github.com/Night-N/Netology_CICD_gitlab/)</br>
 Развертывание Gitlab на локальной машине в VirtualBox с помощью Vagrant. Тестовый пайплайн
