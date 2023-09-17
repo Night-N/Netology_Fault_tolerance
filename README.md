@@ -17,11 +17,11 @@ Load balancer, target groups. Автоматизация с помощью Terra
 ## CI/CD
 
 ### Ansible. 1 часть
-[./CICD/Ansible_1/README.md](./CICD/Ansible_1/README.md)
+[./CICD/Ansible_1/README.md](./CICD/Ansible_1/README.md)  
 Вводная лекция по Ansible. Работа с двумя ВМ(Vagrant) CentOS7
 
 ### Gitlab. </br>
-[Netology_CICD_gitlab](https://github.com/Night-N/Netology_CICD_gitlab/)</br>
+[Netology_CICD_gitlab](https://github.com/Night-N/Netology_CICD_gitlab/)  
 Развертывание Gitlab на локальной машине в VirtualBox с помощью Vagrant. Тестовый пайплайн
 
 ## Информационная безопасность 

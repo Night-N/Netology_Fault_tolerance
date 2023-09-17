@@ -58,15 +58,21 @@
 3. Создайте файл с содержимым «I like Linux» по пути /tmp/netology.txt.
 ``` 
 - Установка тспдампа на хосты:  
+`ansible webservers -b -m yum -a "name=tcpdump stat=present" -i ./hosts`  
 ![](./img/task4-1.jpg)
 
 - Проверка работы sshd:  
+`ansible webservers -b -m service -a "name=sshd stat=started" -i ./hosts`  
 ![](./img/task4-2.jpg)
 
 - Создание файла и запись в него строки:  
+`ansible webservers -b -m file -a "path=/tmp/netology.txt state=touch" -i ./hosts`  
+`ansible webservers -b -m lineinfile -a "path=/tmp/netology.txt line='I like Linux'" -i ./hosts`  
+
 ![](./img/task4-3.jpg)
 
 - Или же просто в одну строку с помощью shell и echo  
+`ansible webservers -b -m shell -a "echo 'I like Linux' > /tmp/netology2.txt" -i ./hosts`  
 ![](./img/task4-4.jpg)
 
 
