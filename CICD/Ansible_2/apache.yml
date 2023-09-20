@@ -1,0 +1,5 @@
+- name: "Apache install"
+  hosts: 192.168.0.56
+  become: true
+  roles:
+  - httpd

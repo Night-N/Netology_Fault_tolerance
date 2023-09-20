@@ -1,0 +1,29 @@
+# This is the default ansible 'hosts' file.
+#
+# It should live in /etc/ansible/hosts
+#
+#   - Comments begin with the '#' character
+#   - Blank lines are ignored
+#   - Groups of hosts are delimited by [header] elements
+#   - You can enter hostnames or ip addresses
+#   - A hostname/ip can be a member of multiple groups
+
+# Ex 1: Ungrouped hosts, specify before any group headers:
+
+## green.example.com
+## blue.example.com
+## 192.168.100.1
+## 192.168.100.10
+
+# Ex 2: A collection of hosts belonging to the 'webservers' group:
+
+[webservers]
+
+192.168.0.56 ansible_ssh_user=vagrant
+192.168.0.57 ansible_ssh_user=vagrant
+
+[ycnginx]
+51.250.88.176 ansible_ssh_user=user ansible_ssh_private_key_file=/home/night/tf-nginx/yc-terraform
+
+[ycpostgr]
+62.84.114.72 ansible_ssh_user=user ansible_ssh_private_key_file=/home/night/tf-nginx/yc-terraform

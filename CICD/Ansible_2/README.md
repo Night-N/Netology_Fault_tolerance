@@ -105,8 +105,10 @@ on {{ ansible_all_ipv4_addresses[0] }} {{ ansible_hostname }}
 - предоставьте скриншоты выполнения плейбука;
 - предоставьте скриншот браузера, отображающего сконфигурированный index.html в качестве сайта.
 ```
+
+[./apache.yml](./apache.yml)  
 Роль:  
-[./ansible-apache/](./ansible-apache/)  
+[./httpd/](./httpd/)  
 
 ![](./img/task3-1.jpg)  
 ![](./img/task3-2.jpg)
