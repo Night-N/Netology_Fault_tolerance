@@ -28,6 +28,9 @@ Load balancer, target groups. Автоматизация с помощью Terra
 [./CICD/Terraform_1/README.md](./CICD/Terraform_1/README.md)  
 Вводная лекция по Terraform
 
+### Terraform. 2 часть
+[./CICD/Terraform_2/README.md](./CICD/Terraform_2/README.md)  
+Terraform, ansible, postgres, nginx
 
 ### Gitlab. </br>
 [Netology_CICD_gitlab](https://github.com/Night-N/Netology_CICD_gitlab/)  
