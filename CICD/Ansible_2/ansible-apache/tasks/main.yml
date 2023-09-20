@@ -1,0 +1,5 @@
+---
+- include_tasks: install-apache.yml
+- include_tasks: open-port.yml
+- include_tasks: custom-page.yml
+- include_tasks: apache-check.yml 

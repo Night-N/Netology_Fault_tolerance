@@ -24,6 +24,10 @@ Load balancer, target groups. Автоматизация с помощью Terra
 [./CICD/Ansible_1/README.md](./CICD/Ansible_1/README.md)  
 Вводная лекция по Ansible. Работа с двумя ВМ(Vagrant) CentOS7. Ad-hoc команды
 
+### Ansible. 2 часть
+[./CICD/Ansible_2/README.md](./CICD/Ansible_2/README.md)  
+Ansible. Плэйбуки, шаблоны. 
+
 ### Terraform. 1 часть
 [./CICD/Terraform_1/README.md](./CICD/Terraform_1/README.md)  
 Вводная лекция по Terraform

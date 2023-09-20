@@ -1,0 +1,39 @@
+---
+- name: "Open port 80"
+  block:
+  - name:  "Open port 80 with firewalld"
+    ansible.posix.firewalld:
+      service: http
+      permanent: yes
+      state: enabled
+    when: 
+    - ansible_service_mgr == 'systemd'
+    - ansible_facts['firewalld']['enabled'] | default(false)
+
+  - name: "Check iptables status"
+    systemd:
+      name: iptables
+    register: iptables_status
+    ignore_errors: true
+
+  - name: "Open port 80 with iptables"
+    iptables:
+      chain: INPUT
+      protocol: tcp
+      destination_port: 80
+      jump: ACCEPT
+      state: present
+    when: iptables_status is defined and (iptables_status.status|default("") == "active" | default(false))
+
+  - name: "Check UFW status"
+    systemd: 
+      name: ufw 
+    register: ufw_status
+    ignore_errors: true
+
+  - name: "Open port 80 with UFW"
+    ufw:
+      rule: allow
+      port: 80
+      proto: tcp
+    when: ufw_status is defined and (ufw_status.status|default("") == "active" | default(false))

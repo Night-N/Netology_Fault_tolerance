@@ -1,0 +1,5 @@
+---
+- name: "Check if site is available"
+  uri:
+    url: "http://{{ ansible_default_ipv4.address }}"
+    status_code: 200

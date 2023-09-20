@@ -1,0 +1,21 @@
+---
+- name: "Install Apache"
+  when: ansible_os_family == "RedHat" or ansible_os_family == "Debian"
+  block:
+  - name: "install apache yum"
+    ansible.builtin.yum:
+      name: httpd
+      state: present
+    when: ansible_os_family == "RedHat"
+
+  - name: "install apache apt"
+    ansible.builtin.apt:
+      name: apache2
+      state: present
+    when: ansible_os_family == "Debian"    
+
+  - name: "enable apache"
+    ansible.builtin.service:
+      name: httpd
+      enabled: true
+      state: started

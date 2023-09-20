@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ ansible_hostname }} - Server Information</title>
+</head>
+<body>
+    <h1>{{ ansible_hostname}} - Server Information</h1>
+    <p>CPU: {{ ansible_processor }}</p>
+    <p>RAM: {{ ansible_memtotal_mb }} MB</p>
+    {% for disk in ansible_mounts %}
+    <p>HDD Size: {{ (disk.size_total / 1024 / 1024 )|round(2) }} MB</p>
+    {% endfor %}
+    <p>IP Address: {{ ansible_all_ipv4_addresses[0] }}</p>
+</body>
+</html>
