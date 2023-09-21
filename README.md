@@ -24,6 +24,10 @@ Load balancer, target groups. Автоматизация с помощью Terra
 [./Virtualisation/Docker_1/README.md](./Virtualisation/Docker_1/README.md)  
 Вводная лекция по Docker
 
+### Docker. 2 часть
+[./Virtualisation/Docker_2/README.md](./Virtualisation/Docker_2/README.md)  
+Docker compose: Postgres+Zabbix+pgadmin
+
 
 ## CI/CD
 
