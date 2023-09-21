@@ -18,6 +18,13 @@ Load balancer, target groups. Автоматизация с помощью Terra
 Настройка HAProxy на 4 уровне (TCP), на 7 уровне (HTTP) на примере балансировки нагрузки на python server.</br>
 Взаимодействие с Nginx
 
+## Виртуализация
+
+### Docker. 1 часть
+[./Virtualisation/Docker_1/README.md](./Virtualisation/Docker_1/README.md)  
+Вводная лекция по Docker
+
+
 ## CI/CD
 
 ### Ansible. 1 часть
